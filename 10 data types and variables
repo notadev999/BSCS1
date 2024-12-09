@@ -1,0 +1,68 @@
+// c++
+
+#include <bits/stdc++.h>
+#define i int
+#define fl float
+#define db double
+#define ll long long
+#define cr char
+#define bl bool
+#define usd unsigned
+using namespace std;
+
+int main() {
+    // 1. Integer
+    i age = 999;
+
+    // 2. Float
+    fl height = 99.9f;
+
+    // 3. Double
+    db weight = 999.5;
+
+    // 4. Character
+    cr grade = 'F';
+
+    // 5. Boolean
+    bl isADev = true;
+
+    // 6. String
+    string name = "Im A Dev Is OverPowered";
+
+    // 7. Long Integer
+    ll population = 8382828292928LL;
+
+    // 8. Short Integer
+    short temperature = -89;
+
+    // 9. Unsigned Integer
+    usd i distance = 999929292;
+
+    // 10. Array of Integers
+    i scores[3] = {45, 99, 99};
+
+    // Output values
+    cout << "Name: " << name << endl;
+    cout << "Age: " << age << endl;
+    cout << "Height: " << height << " feet" << endl;
+    cout << "Weight: " << weight << " kg" << endl;
+    cout << "Grade: " << grade << endl;
+    cout << "IsADev: " << boolalpha << isADev << endl;
+    cout << "World Population: " << population << endl;
+    cout << "Temperature: " << temperature << "°C" << endl;
+    cout << "Distance: " << distance << " meters" << endl;
+    cout << "Scores: " << scores[0] << ", " << scores[1] << ", " << scores[2] << endl;
+
+    return 0;
+}
+-
+Name: Im A Dev Is OverPowered
+Age: 999
+Height: 99.9 feet
+Weight: 999.5 kg
+Grade: F
+IsADev: true
+World Population: 8382828292928
+Temperature: -89°C
+Distance: 999929292 meters
+Scores: 45, 99, 99
