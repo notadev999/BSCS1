@@ -1,0 +1,60 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    int A;
+    int B;
+    int C;
+    int D;
+    
+    string name;
+    
+    cout << "Drop Your Name: ";
+    cin >> name;
+
+    cout << "Prelim: ";
+    cin >> A;
+
+    cout << "Midterm: ";
+    cin >> B;
+
+    cout << "Prefinal: ";
+    cin >> C;
+
+    cout << "Final: ";
+    cin >> D;
+    
+    cout << "=======================\n";
+    
+    int total = A + B + C + D;
+    cout << "Total Of The Grades: " << total << endl;
+    
+    float average = total / 4.0;
+    cout << "Average: " << average << endl;
+    
+    return 0;
+}
+
+
+==========
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string fname, mname, lname;
+    
+    cout << "Enter Your First Name: ";
+    cin >> fname;
+
+    cout << "Enter Your Middle Name: ";
+    cin >> mname;
+
+    cout << "Enter Your Last Name: ";
+    cin >> lname;
+    
+    cout << "Full Name: " << fname << " " << mname << " " << lname << endl;
+
+    return 0;
+}
