@@ -1,0 +1,60 @@
+#include<iostream>
+using namespace std;
+int main(){
+ 
+
+string stringtext = " DelosReyes Joemark A. ";
+string course = " BSCS_1 ";
+
+cout << " FullName: " << stringtext << endl;
+cout << " Course: " << course << endl;
+
+return 0;
+
+}
+
+-----------------
+ / / Act 2 
+
+#include<iostream>
+using namespace std;
+int main(){
+ 
+int A = 10;
+int B =2;
+int C = A+B;
+
+cout << "Number1;" << A << endl;
+cout << "Number2;" << B << endl;
+cout << "Results;" << C << endl;
+
+return 0;
+}
+
+-------------
+/ / Act 3 
+
+
+#include<iostream>
+using namespace std;
+main() {
+ 
+
+ string stringtext = "Grade";
+ int A = 80;
+ int B = 90;
+ int C = 95;
+ int D = 85;
+ int E = A + B + C + D;
+ float Y = 4;
+ float Z = E / Y;
+
+  cout << "Grades" << endl;
+  cout << "Prelim:" << A << endl;
+  cout << "Midterm:" << B << endl;
+  cout << "Prefinal:" << C << endl;
+  cout << "Final:" << D <<  endl;
+  cout << "Average: " << Z << endl;
+
+    return 0;
+    }
